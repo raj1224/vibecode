@@ -10,3 +10,8 @@ npm i prisma client
 npx prisma generate
 npx prisam db push
 npx prisma studio
+
+nextauth:
+npm install next-auth@beta
+npx auth secret
+npm i @auth/prisma-adapter
